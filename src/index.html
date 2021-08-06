@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <div id="container">
+     <div class="row1">
+        <h1> Learn to code by <br> watching others</h1>
+        <p> See how experience develpers solve problems in real-time. <br> Watching scripted tutorials is great, but understanding how <br> developers think is invaluable </p>
+    </div>
+
+    <div id="block">
+        <div >
+        <p class="head1">Try it free 7 days then $20/mo. thereafter.</p>
+        </div>
+        
+        <form class="main-form" id="form">
+        <div class="form-control">
+        <input type="text" id="firstName" placeholder="First Name" >
+        <svg class="svg svgerror" width="24" height="30" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="8"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+        <small>First Name cannot be empty.</small>
+        </div>
+
+        <div class="form-control">
+        <input type="text" id="lastName" placeholder="Last Name" >
+        <svg width="24" height="30" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="8"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+        <small>Last Name cannot be empty.</small>
+        </div>
+
+        <div class="form-control ">
+        <input type="email" id="email" placeholder="Email Address" >
+        <svg width="24" height="30" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="8"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+        <small>Looks like this is not an Email.</small>
+        </div>
+
+       <div class="form-control">
+        <input type="password" id="pwd" placeholder="Password" >
+        <svg width="24" height="30" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="8"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+        <small>Password cannot be empty.</small>
+        </div>
+
+        <div class="bttn">
+        <button type="submit" id="btn">CLAIM YOUR FREE TRIAL</button>
+        </div>
+        <div>
+            <p class="footer-text">By clicking the button you are agreeing to our <font color="red">Terms and Services</font></p>
+        </div>
+        </form>
+    </div>
+
+
+</div>
+
+
+<script src="index.js"></script>
 </body>
+
 </html>
